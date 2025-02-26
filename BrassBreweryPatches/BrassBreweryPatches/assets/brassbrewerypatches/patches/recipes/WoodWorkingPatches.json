@@ -1,0 +1,38 @@
+[
+  {
+    "file": "game:recipes/grid/doors.json",
+    "op": "add",
+    "path": "/2/requiresTrait",
+    "value": "carpenter"
+  },
+  {
+    "file": "game:recipes/grid/trapdoor.json",
+    "op": "add",
+    "path": "/1/requiresTrait",
+    "value": "carpenter"
+  },
+  {
+    "file": "game:recipes/grid/trapdoor.json",
+    "op": "add",
+    "path": "/0/requiresTrait",
+    "value": "carpenter"
+  },
+  {
+    "file": "game:recipes/grid/barrel.json",
+    "op": "add",
+    "path": "/enabled",
+    "value": "false"
+  },
+  {
+    "file": "game:recipes/grid/woodbucket.json",
+    "op": "add",
+    "path": "/0/enabled",
+    "value": "false"
+  },
+  {
+    "file": "game:recipes/grid/woodbucket.json",
+    "op": "add",
+    "path": "/1/enabled",
+    "value": "false"
+  }
+] 

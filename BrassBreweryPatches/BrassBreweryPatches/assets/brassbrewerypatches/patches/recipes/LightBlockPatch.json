@@ -1,0 +1,11 @@
+﻿[
+  {
+    file: "game:blocktypes/paperlantern.json",
+    op: "replace",
+    path: "/lightHsvByType",
+    value: {
+      "*-off": [0,0,0],
+      "*-on": [8, 2, 13],
+    }
+  }
+]

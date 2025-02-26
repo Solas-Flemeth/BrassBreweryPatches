@@ -1,0 +1,18 @@
+{
+    "type": "code",
+    "modid": "brassbrewerypatches",
+    "name": "BrassBreweryPatches",
+    "authors": [
+        "Solas Flemeth for code",
+        "Luce/Kleaver for artwork"
+    ],
+    "description": "A handful of patches for the Brass Brewery Server to improve longterm playability",
+    "version": "1.0.0",
+    "dependencies": {
+        "game": "",
+        "traitacquirer": "0.9.6",
+        "em": "3.0.0",
+        "theworkingclasses": "1.0.3"
+    },
+    "website": "https://discord.brassbrewery.org"
+}

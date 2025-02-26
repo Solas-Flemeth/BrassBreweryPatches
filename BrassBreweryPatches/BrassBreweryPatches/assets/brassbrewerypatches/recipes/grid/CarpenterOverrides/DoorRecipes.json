@@ -1,0 +1,25 @@
+[
+  {
+    "ingredientPattern": "_WW,NWW,_WW",
+    "recipeGroup": 1001,
+    "ingredients": {
+      "W": { "type": "item", "code": "game:plank-*", "name": "wood", "quantity": 1 },
+      "N": { "type": "item", "code": "game:metalnailsandstrips-*", "quantity": 1 }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "block", "code": "game:door-solid-{wood}"  }
+  },
+  {
+    "ingredientPattern": "ST",
+    "recipeGroup": 1002,
+    "ingredients": {
+      "S": { "type": "item", "code": "game:saw-*", "isTool": true, "toolDurabilityCost": 10 },
+      "T": { "type": "block", "code": "game:door-solid-*" , "name": "wood", "quantity": 1 }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { "type": "block", "code": "game:door-sleek-windowed-{wood}", "quantity": 1},
+    "requiresTrait": "carpenter"
+  }
+]

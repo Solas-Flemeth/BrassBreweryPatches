@@ -1,0 +1,6 @@
+{
+    "characterclass-malefactor": "Apothecary",
+    "characterdesc-malefactor": "<font color=\"#99c9f9\"><i>The line between poison and cure is thin. You’ve walked it for a long time.<br>Who have you saved? Who have you doomed?</i></font><br><br>Apothecaries are skilled in crafting tinctures, salves, and poisons, making them invaluable in both survival and subterfuge. However, their reliance on rare ingredients and fragile constitution make them vulnerable in direct combat.",
+    "characterclass-tailor": "Artisan", 
+    "characterdesc-tailor": "<font color=\"#99c9f9\"><i>Your hands do more than shape clay and cloth—they weave meaning into the world.<br>Art is survival, just as much as food and fire.</i></font><br><br>Artisans are not just craftsmen but visionaries, elevating pottery and textiles into forms of expression. Their creations bring beauty, culture, and identity to those around them. However, their devotion to artistry leaves them less suited for raw labor and the brutal necessities of survival.",
+}

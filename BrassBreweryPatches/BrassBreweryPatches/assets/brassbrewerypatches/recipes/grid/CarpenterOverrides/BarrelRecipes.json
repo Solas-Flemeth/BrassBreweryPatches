@@ -1,0 +1,26 @@
+[
+  {
+    "ingredientPattern": "WRW,WRW,WRW",
+    "recipeGroup": 1001,
+    "ingredients": {
+      "W": { "type": "item", "code": "game:plank-*", "quantity": 2 },
+      "R": { "type": "item", "code": "game:rope", "quantity": 1 }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type":"block", "code": "game:barrel", "quantity": 1  },
+    "requiresTrait": "carpenter"
+  },
+  {
+    "ingredientPattern": "WHW,WRW,WRW",
+    "recipeGroup": 1002,
+    "ingredients": {
+      "H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 15 },
+      "W": { "type": "item", "code": "game:plank-*", "quantity": 2 },
+      "R": { "type": "item", "code": "game:rod-*", "quantity": 1 }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type":"block", "code": "game:barrel", "quantity": 1  }
+  }
+]

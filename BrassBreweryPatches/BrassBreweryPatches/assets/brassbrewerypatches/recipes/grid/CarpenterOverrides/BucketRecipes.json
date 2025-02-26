@@ -1,0 +1,54 @@
+[
+
+  {
+    "ingredientPattern": "_F_,WRW,WRW",
+    "recipeGroup": 1001,
+    "ingredients": {
+    "W": { "type": "item", "code": "game:plank-*", "quantity": 1 },
+    "R": { "type": "item", "code": "game:rope", "quantity": 1 }, 
+    "F": { "type": "item", "code": "game:flaxtwine", "quantity": 1 }
+    },
+  "width": 3,
+  "height": 3,
+  "output": { "type":"block", "code": "game:woodbucket", "quantity": 1  },
+  "requiresTrait": "carpenter"
+  },
+  {
+    "ingredientPattern": "_R_,WRW,WRW",
+    "recipeGroup": 1001,
+    "ingredients": {
+      "W": { "type": "item", "code": "game:plank-*", "quantity": 1 },
+      "R": { "type": "item", "code": "game:rope", "quantity": 1 }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type":"block", "code": "game:woodbucket", "quantity": 1  },
+    "requiresTrait": "carpenter"
+  },
+  {
+    "ingredientPattern": "HF_,WRW,WRW",
+    "recipeGroup": 1002,
+    "ingredients": {
+      "W": { "type": "item", "code": "game:plank-*", "quantity": 1 },
+      "R": { "type": "item", "code": "game:rod-*", "quantity": 1 },
+      "F": { "type": "item", "code": "game:flaxtwine", "quantity": 1 },
+      "H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 5 }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type":"block", "code": "game:woodbucket", "quantity": 1  }
+  },
+  {
+    "ingredientPattern": "HR_,WOW,WOW",
+    "recipeGroup": 1002,
+    "ingredients": {
+      "H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 5 },
+      "W": { "type": "item", "code": "game:plank-*", "quantity": 1 },
+      "O": { "type": "item", "code": "game:rod-*", "quantity": 1 },
+      "R": { "type": "item", "code": "game:rope", "quantity": 1 }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type":"block", "code": "game:woodbucket", "quantity": 1  }
+  }
+]
