@@ -7,12 +7,13 @@
         "Luce/Kleaver for artwork"
     ],
     "description": "A handful of patches for the Brass Brewery Server to improve longterm playability",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependencies": {
-        "game": "",
+        "game": "1.20.4",
         "traitacquirer": "0.9.6",
         "em": "3.0.0",
-        "theworkingclasses": "1.0.3"
+        "theworkingclasses": "1.0.3",
+        "combatoverhaul": "0.2.1"
     },
     "website": "https://discord.brassbrewery.org"
 }

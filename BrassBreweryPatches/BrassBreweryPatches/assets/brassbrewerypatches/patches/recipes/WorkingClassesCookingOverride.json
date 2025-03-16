@@ -1,0 +1,14 @@
+[
+  {
+    "file": "theworkingclasses:recipes/grid/firestarter",
+    "op": "add",
+    "path": "/0/enabled",
+    "value": false
+  },
+  {
+    "file": "theworkingclasses:recipes/grid/kitcheninventor",
+    "op": "add",
+    "path": "/0/enabled",
+    "value": false
+  }
+]

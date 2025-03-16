@@ -1,0 +1,153 @@
+[
+  {
+    "op": "remove",
+    "path": "/15",
+    "file": "game:config/characterclasses.json",
+    "dependsOn": [ { "modid": "theworkingclasses" }, { "modid": "combatoverhaul" }]
+  },
+  {
+    "op": "remove",
+    "path": "/13",
+    "file": "game:config/characterclasses.json",
+    "dependsOn": [ { "modid": "theworkingclasses" }, { "modid": "combatoverhaul" }]
+  },
+  {
+    "op": "remove",
+    "path": "/11",
+    "file": "game:config/characterclasses.json",
+    "dependsOn": [ { "modid": "theworkingclasses" }, { "modid": "combatoverhaul" }]
+  },
+  {
+    "op": "remove",
+    "path": "/9",
+    "file": "game:config/characterclasses.json",
+    "dependsOn": [ { "modid": "theworkingclasses" }, { "modid": "combatoverhaul" }]
+  },
+  {
+    "op": "remove",
+    "path": "/8",
+    "file": "game:config/characterclasses.json",
+    "dependsOn": [ { "modid": "theworkingclasses" }, { "modid": "combatoverhaul" }]
+  },
+  {
+    "op": "remove",
+    "path": "/6",
+    "file": "game:config/characterclasses.json",
+    "dependsOn": [ { "modid": "theworkingclasses" }, { "modid": "combatoverhaul" }]
+  },
+  {
+    "op": "replace",
+    "path": "/2/traits",
+    "value": ["forager",
+      "pilferer",
+      "improviser", 
+      "frail",
+      "nervous",
+      "hedgewitch",
+      "claustrophobic",
+      "carefultouch",
+      "philosopher", 
+      "temporallyaware",
+      "clubsProficiency"],
+    "file": "game:config/characterclasses.json",
+    "dependsOn": [ { "modid": "theworkingclasses" }, { "modid": "combatoverhaul" }]
+  },
+  {
+    "op": "replace",
+    "path": "/3/traits",
+    "value": ["precise",
+      "technical", 
+      "tinkerer",
+      "millwright",
+      "miner", 
+      "refinedtaste", 
+      "nearsighted",
+      "firearmsProficiency"
+    ],
+    "file": "game:config/characterclasses.json",
+    "dependsOn": [ { "modid": "theworkingclasses" }, { "modid": "combatoverhaul" }]
+  },
+  {
+    "op": "replace",
+    "path": "/4/traits",
+    "value": ["soldier",
+      "hardy",
+      "merciless",
+      "ravenous",
+      "nearsighted",
+      "smith",
+      "cokefurnacemaster",
+      "prospector",
+      "oneHandedSwordsProficiency",
+      "twoHandedSwordsProficiency",
+      "tremblingAim"],
+    "file": "game:config/characterclasses.json",
+    "dependsOn": [ { "modid": "theworkingclasses" }, { "modid": "combatoverhaul" }]
+  },
+  {
+    "op": "replace",
+    "path": "/5/traits",
+    "value": ["clothier",
+      "mender",
+      "civil",
+      "potter",
+      "artisan",
+      "sailwright",
+      "mason",
+      "weak"
+    ],
+    "file": "game:config/characterclasses.json",
+    "dependsOn": [ { "modid": "theworkingclasses" }, { "modid": "combatoverhaul" }]
+  },
+  {
+    "op": "replace",
+    "path": "/6/traits",
+    "value": [
+      "farmer",
+      "greenfingered",
+      "animalfriend",
+      "forester",
+      "forager",
+      "spearsProficiency",
+      "javelinsProficiency",
+      "tough",
+      "hungry",
+      "claustrophobic"
+    ],
+    "file": "game:config/characterclasses.json",
+    "dependsOn": [ { "modid": "theworkingclasses" }, { "modid": "combatoverhaul" }]
+  },
+  {
+    "op": "replace",
+    "path": "/7/traits",
+    "value": [
+      "knifeexpert",
+      "firestarter",
+      "practicedbutcher",
+      "inventiveinthekitchen",
+      "refinedtaste",
+      "nearsighted",
+      "macesProficiency",
+      "oneHandedSwordsProficiency"
+    ],
+    "file": "game:config/characterclasses.json",
+    "dependsOn": [ { "modid": "theworkingclasses" }, { "modid": "combatoverhaul" }]
+  },
+  {
+    "op": "replace",
+    "path": "/9/traits",
+    "value": [
+      "carpenter",
+      "fitter",
+      "strongarms",
+      "hungry",
+      "axesProficiency",
+      "lumberjack",
+      "forester",
+      "burner",
+      "woodsman"
+    ],
+    "file": "game:config/characterclasses.json",
+    "dependsOn": [ { "modid": "theworkingclasses" }, { "modid": "combatoverhaul" }]
+  }
+] 

@@ -1,0 +1,33 @@
+[
+  {
+    "recipeGroup": 1002,
+    "ingredientPattern": "GFG,RPR",
+    "requiresTrait": "firestarter",
+    "ingredients": {
+      "G": {
+        "type": "item",
+        "code": "game:drygrass"
+      },
+      "F": {
+        "type": "item",
+        "code": "game:flaxfibers"
+      },
+      "R": {
+        "type": "item",
+        "code": "game:rot",
+        "litres": 1
+      },
+      "P": {
+        "type": "block",
+        "code": "game:peatbrick"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "theworkingclasses:rottenpeat-raw",
+      "quantity": 4
+    }
+  }
+]
