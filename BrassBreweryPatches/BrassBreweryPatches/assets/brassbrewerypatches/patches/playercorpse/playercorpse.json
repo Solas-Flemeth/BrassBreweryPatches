@@ -1,0 +1,18 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/client/glowlevel",
+    "value": 255,
+    "file": "playercorpse:entities/playercorpse.json",
+    "dependsOn": [ { "modid": "playercorpse" }]
+  },
+  {
+    "file": "playercorpse:entities/playercorpse.json",
+    "op": "addmerge",
+    "path": "/sounds",
+    "value": {
+      "idle": "brassbrewerypatches:playercorpse/corpse-loop"
+    },
+    "dependsOn": [ { "modid": "playercorpse" }]
+  }
+]

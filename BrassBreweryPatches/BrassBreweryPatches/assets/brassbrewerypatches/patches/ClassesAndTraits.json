@@ -48,7 +48,8 @@
       "carefultouch",
       "philosopher", 
       "temporallyaware",
-      "clubsProficiency"],
+      "clubsProficiency"
+    ],
     "file": "game:config/characterclasses.json",
     "dependsOn": [ { "modid": "theworkingclasses" }, { "modid": "combatoverhaul" }]
   },
@@ -59,10 +60,11 @@
       "technical", 
       "tinkerer",
       "millwright",
-      "miner", 
-      "refinedtaste", 
-      "nearsighted",
-      "firearmsProficiency"
+      "fleetfooted",
+      "miner",
+      "firearmsProficiency",
+      "civil",
+      "ravenous"
     ],
     "file": "game:config/characterclasses.json",
     "dependsOn": [ { "modid": "theworkingclasses" }, { "modid": "combatoverhaul" }]

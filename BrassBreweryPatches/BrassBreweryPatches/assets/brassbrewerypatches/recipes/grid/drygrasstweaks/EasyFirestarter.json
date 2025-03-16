@@ -1,0 +1,67 @@
+[
+  {
+    "ingredientPattern": "GS,S_",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:stick"
+      },
+      "G": {
+        "type": "item",
+        "code": "artofgrowing:grass"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "game:firestarter",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "G,S",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:stick",
+        "quantity": 1
+      },
+      "G": {
+        "type": "item",
+        "code": "artofgrowing:grass",
+        "quantity": 2
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "block", 
+      "code": "game:torch-basic-extinct-up",
+      "quantity": 1
+    }
+  },
+  {
+    "recipeGroup": 1002,
+    "ingredientPattern": "G,T",
+    "ingredients": {
+      "G": {
+        "type": "item",
+        "code": "artofgrowing:grass",
+        "quantity": 1
+      },
+      "T": {
+        "type": "block",
+        "code": "game:torch-basic-lit-up", 
+        "returnedStack": { "type": "block", "code": "game:torch-basic-extinct-up" }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "game:drygrass",
+      "quantity": 1
+    }
+  }  
+]
